@@ -1,0 +1,8 @@
+version: '3'
+services:
+  myapp:
+    image: narin/node-express-inick
+    ports:
+      - "8000:8000"
+    command: "npm start"
+
